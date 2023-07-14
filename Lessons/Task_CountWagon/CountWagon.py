@@ -14,7 +14,7 @@
 wagonNumber = int(input("Введите номер вагона в который сел Витя: "))
 wagonNumberHead = int(input("Введите номер вагона от головы поезда сел Витя: "))
 
-if wagonNumberHead != wagonNumber:
+if wagonNumberHead == wagonNumber:
     print("Недостаточно информации для определения количества вагонов")
 else:
     print(wagonNumber + wagonNumberHead-1)
